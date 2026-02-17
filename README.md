@@ -49,7 +49,7 @@ vizdem shade input.tif -out relief.png
 vizdem shade input.tif --cmap viridis --blend-mode soft -out color_relief.png
 
 # Using a fetched CPT (requires fetchez)
-vizdem shade input.tif --cmap city:gg/wiki-2.0 -out wikimap.png
+vizdem shade input.tif --cmap wiki-2.0 -out wikimap.png
 ```
 
 * ***Georeferenced Shading*** (geoshade)
