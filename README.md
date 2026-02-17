@@ -37,18 +37,6 @@ Vizdem is a Command Line Interface (CLI) tool. The general syntax is:
 vizdem [COMMAND] [INPUT_DEM] [OPTIONS]
 ```
 
-* ***Joyplots*** (joy)
-
-Generate artistic ridgeline plots.
-
-```bash
-# Basic usage
-vizdem joy input.tif --output art.png
-
-# Customizing the look (High contrast, less overlap)
-vizdem joy input.tif --step 20 --scale 0.2 --overlap 0.5 --color white --face-color black -out joy_dark.png
-```
-
 * ***Hillshading & Relief*** (shade)
 
 Best for creating static images (PNG/JPG) for presentations or web use. Uses Matplotlib light sources.
@@ -86,6 +74,18 @@ vizdem hist input.tif --stats True -out hist.png
 
 # Cumulative Distribution Function (CDF)
 vizdem hist input.tif --plot_type cdf --color red -out cdf.png
+```
+
+* ***Joyplots*** (joy)
+
+Generate artistic ridgeline plots.
+
+```bash
+# Basic usage
+vizdem joy input.tif --output art.png
+
+# Customizing the look (High contrast, less overlap)
+vizdem joy input.tif --step 20 --scale 0.2 --overlap 0.5 --color white --face-color black -out joy_dark.png
 ```
 
 * ***Colorbars*** (colorbar)
