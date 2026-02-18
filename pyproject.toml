@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "vizdem"
-version = "0.1.2"
+version = "0.1.3"
 description = "Vizdem: Wisdom for your DEMs. Easy, aesthetic, and scientific visualizations."
 readme = "README.md"
 requires-python = ">=3.9"

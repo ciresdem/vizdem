@@ -6,7 +6,7 @@
 
 Originally born from the [CUDEM](https://github.com/cires-dem/cudem) project, Vizdem has been decoupled to run on a modern, "pure Python" geospatial stack (Rasterio, NumPy, Matplotlib). It allows you to create everything from "Joy Division" style ridgeline plots to rigorous, georeferenced hillshades with a single command.
 
-> ⚠️ **BETA STATUS:** This project is in active development (v0.1.1).
+> ⚠️ **BETA STATUS:** This project is in active development (v0.1.3).
 
 ## Features
 
