@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-vizdem.modules.shade
+perspecto.modules.shade
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Generate a Shaded Relief image.
@@ -14,11 +14,11 @@ Generate a Shaded Relief image.
 import logging
 import numpy as np
 import matplotlib.pyplot as plt
-from ..base import VizdemBase
+from ..base import PerspectoBase
 
 logger = logging.getLogger(__name__)
 
-class Joyplot(VizdemBase):
+class Joyplot(PerspectoBase):
     """Generate 'Joy Division' style ridgeline plots."""
 
     def __init__(self, step=10, scale=0.1, overlap=1.0,

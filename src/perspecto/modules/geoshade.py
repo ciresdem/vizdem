@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-vizdem.modules.geoshade
+perspecto.modules.geoshade
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 :copyright: (c) 2016 - 2026 Regents of the University of Colorado
@@ -16,12 +16,12 @@ import rasterio
 from rasterio.windows import Window
 from matplotlib.colors import LightSource
 import matplotlib.pyplot as plt
-from ..base import VizdemBase
+from ..base import PerspectoBase
 from .. import cpt as cpt_utils
 
 logger = logging.getLogger(__name__)
 
-class GeoHillshade(VizdemBase):
+class GeoHillshade(PerspectoBase):
     """Generate a Georeferenced Hillshade/Relief using Rasterio and Numpy.
 
     This preserves the spatial metadata of the input (unlike standard image plotting)

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-vizdem.modules.gdal_hillshade
+perspecto.modules.gdal_hillshade
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 :copyright: (c) 2016 - 2026 Regents of the University of Colorado
@@ -16,7 +16,7 @@ import numpy as np
 
 from fetchez.utils import str_or, float_or, make_temp_fn, remove_glob2, fn_url_p
 
-from ..base import VizdemBase
+from ..base import PerspectoBase
 from ..utils import run_cmd, yield_srcwin
 
 try:
@@ -165,7 +165,7 @@ def gdal_infos(src_ds, scan=False, band=1):
     }
 
 
-class GDALHillshade(VizdemBase):
+class GDALHillshade(PerspectoBase):
     """Generate a Hillshade Image using GDAL and Numpy blending.
 
     Supports various blending modes:
@@ -349,7 +349,7 @@ class GDALHillshade(VizdemBase):
         return self.outfile
 
 
-class Hillshade_cmd(VizdemBase):
+class Hillshade_cmd(PerspectoBase):
     """
     Generate a Hillshade Image using command-line tools.
     Requires GDAL and ImageMagick installed in the system path.

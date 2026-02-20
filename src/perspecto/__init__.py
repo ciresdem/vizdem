@@ -94,7 +94,7 @@ class QuickViz(core.FetchModule):
 
         temp_mosaic = os.path.join(self._outdir, '_temp_mosaic.tif')
 
-        final_dem = os.path.join(self._outdir, 'vizdem_merged.tif')
+        final_dem = os.path.join(self._outdir, 'perspecto_merged.tif')
 
         datasets_to_close = []
         datasets_to_merge = []
@@ -230,7 +230,7 @@ def setup_fetchez(registry):
             "category": "Visualization",
             "desc": "Auto-fetch (Copernicus+GEBCO) and visualize DEMs.",
             "tags": ["viz", "dem", "pipeline", "merge"],
-            "agency": "Vizdem",
+            "agency": "Perspecto",
             "license": "MIT"
         }
     )

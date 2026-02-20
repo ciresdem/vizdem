@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-vizdem.modules.shade
+perspecto.modules.shade
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Generate a Shaded Relief image.
@@ -16,12 +16,12 @@ import logging
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.colors import LightSource, LinearSegmentedColormap
-from ..base import VizdemBase
+from ..base import PerspectoBase
 from .. import cpt as cpt_utils
 
 logger = logging.getLogger(__name__)
 
-class Hillshade(VizdemBase):
+class Hillshade(PerspectoBase):
     """Generate Hillshades and Color Relief maps."""
 
     def __init__(self, azimuth=315, altitude=45, vert_exag=1,

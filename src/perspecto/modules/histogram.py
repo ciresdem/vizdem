@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-vizdem.modules.histogram
+perspecto.modules.histogram
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 :copyright: (c) 2016 - 2026 Regents of the University of Colorado
@@ -12,13 +12,13 @@ vizdem.modules.histogram
 import os
 import logging
 import numpy as np
-from ..base import VizdemBase
+from ..base import PerspectoBase
 
 import matplotlib.pyplot as plt
 
 logger = logging.getLogger(__name__)
 
-class Histogram(VizdemBase):
+class Histogram(PerspectoBase):
     """Generate a Hypsometric Histogram or CDF from a DEM.
 
     Visualizes the distribution of elevation values within the dataset.

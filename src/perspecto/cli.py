@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 
 """
-vizdem.cli
+perspecto.cli
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-VizDEM CLI, using click
+Perspecto CLI, using click
 
 :copyright: (c) 2016 - 2026 Regents of the University of Colorado
 :license: MIT, see LICENSE for more details.
@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 @click.version_option()
 def main():
     """
-    vizdem: Wisdom for your DEMs.
+    perspecto: Wisdom for your DEMs.
 
     Tools to create aesthetic and scientific visualizations from elevation data.
     """

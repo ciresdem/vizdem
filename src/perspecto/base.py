@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 
 """
-vizdem.base
+perspecto.base
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Base Class for vizdem
+Base Class for perspecto
 
 :copyright: (c) 2016 - 2026 Regents of the University of Colorado
 :license: MIT, see LICENSE for more details.
@@ -21,8 +21,8 @@ import logging
 logger = logging.getLogger(__name__)
 
 
-class VizdemBase:
-    """Base class for Vizdem modules.
+class PerspectoBase:
+    """Base class for Perspecto modules.
 
     Handles DEM loading via Rasterio, metadata parsing, and standard output naming.
     """

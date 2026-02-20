@@ -319,7 +319,7 @@ def fetch_cpt_city(query='grass/haxby', out_dir=None):
 
     return fetcher.results[0]["dst_fn"]
 
-def load_cmap(cpt_file, name="vizdem_cpt"):
+def load_cmap(cpt_file, name="perspecto_cpt"):
     """Reads a CPT file and converts it to a Matplotlib Colormap."""
 
     try:

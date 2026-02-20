@@ -17,12 +17,12 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import matplotlib.colors as mcolors
 import numpy as np
-from ..base import VizdemBase
+from ..base import PerspectoBase
 from .. import cpt as cpt_utils
 
 logger = logging.getLogger(__name__)
 
-class Colorbar(VizdemBase):
+class Colorbar(PerspectoBase):
     """Generate a standalone colorbar image."""
 
     def __init__(self, cmap='terrain', label='Elevation (m)',
